@@ -1,17 +1,1 @@
-{
-  "name": "nexusai-app",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
-  "devDependencies": {
-    "vite": "^2.0.0",
-    "typescript": "^4.0.0"
-  }
-}
+{"name":"nexusai-app","version":"1.0.0","description":"NEXUSAI-APP: Autonomous AI Agent System for Content Generation & Brand Management","type":"module","scripts":{"dev":"vite","build":"tsc && vite build","preview":"vite preview","lint":"eslint src --ext ts,tsx","type-check":"tsc --noEmit"},"dependencies":{"react":"^18.2.0","react-dom":"^18.2.0","zustand":"^4.4.1","axios":"^1.6.2","date-fns":"^2.30.0","uuid":"^9.0.1","react-router-dom":"^6.20.0","lucide-react":"^0.294.0","recharts":"^2.10.0","immer":"^10.0.0"},"devDependencies":{"@types/react":"^18.2.0","@types/react-dom":"^18.2.0","@types/node":"^20.0.0","@types/uuid":"^9.0.2","typescript":"^5.2.0","vite":"^5.0.0","@vitejs/plugin-react":"^4.2.0","eslint":"^8.50.0","@typescript-eslint/eslint-plugin":"^6.10.0","@typescript-eslint/parser":"^6.10.0"}}
